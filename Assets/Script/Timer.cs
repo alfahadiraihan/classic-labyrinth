@@ -6,7 +6,7 @@ public class Timer : MonoBehaviour
     public float timeLimit = 30f;   // Time limit in seconds
     public GameObject levelFinishedPanel; // Reference to the LevelFinishedPanel GameObject
     private string timeUpText = "Time's Up!"; // Text to display when the timer expires
-    private float timer;            // Current timer value
+    public float timerValue;            // Current timer value
     public bool isTimerRunning;    // Flag to track if the timer is running
     private TextMeshProUGUI timerText; // Reference to the TextMeshPro component to display the timer
 
@@ -21,7 +21,7 @@ public class Timer : MonoBehaviour
         timerText = GetComponent<TextMeshProUGUI>();
 
         // Initialize the timer
-        timer = timeLimit;
+        timerValue = timeLimit;
         isTimerRunning = true;
     }
 
@@ -30,10 +30,10 @@ public class Timer : MonoBehaviour
         if (isTimerRunning)
         {
             // Update the timer
-            timer -= Time.deltaTime;
+            timerValue -= Time.deltaTime;
 
             // Check if the timer has reached or exceeded zero
-            if (timer <= 0f)
+            if (timerValue <= 0f)
             {
                 // Time is up! Perform the necessary actions (e.g., game over, level failed, etc.)
                 TimerExpired();
@@ -47,7 +47,7 @@ public class Timer : MonoBehaviour
     private void UpdateTimerText()
     {
         // Calculate the remaining seconds
-        int seconds = Mathf.FloorToInt(timer % 60f);
+        int seconds = Mathf.FloorToInt(timerValue % 60f);
 
         // Update the TextMeshPro text with the remaining seconds
         timerText.text = string.Format("{0}", seconds);

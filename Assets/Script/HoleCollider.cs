@@ -5,6 +5,7 @@ public class HoleCollider : MonoBehaviour
 {
     public GameObject levelFinishedPanel;
     public GameObject levelCanvas;
+    public Timer timer; // Reference to an instance of the Timer script
 
     private void OnTriggerEnter(Collider other)
     {
@@ -20,12 +21,6 @@ public class HoleCollider : MonoBehaviour
 
             // Find the TimerText object within the LevelCanvas hierarchy
             GameObject timerTextObject = levelCanvas.transform.Find("TimerText").gameObject;
-
-            // Find the TextMeshPro component within the TimerText object
-            TextMeshProUGUI timerTextComponent = timerTextObject.GetComponent<TextMeshProUGUI>();
-
-            // Update the text value of the TextMeshPro component
-            timerTextComponent.text = "Goal!";
 
             // Disable the TimerText object
             timerTextObject.SetActive(false);

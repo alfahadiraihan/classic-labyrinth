@@ -29304,8 +29304,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5015f73f6637f7146803f75e5aa53242, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLimit: 21
+  timeLimit: 31
   levelFinishedPanel: {fileID: 794071677}
+  timerValue: 0
   isTimerRunning: 0
 --- !u!1 &512666322
 GameObject:
@@ -29514,6 +29515,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelFinishedPanel: {fileID: 794071677}
   levelCanvas: {fileID: 1728393229}
+  timer: {fileID: 373245670}
 --- !u!1 &625051660
 GameObject:
   m_ObjectHideFlags: 0
