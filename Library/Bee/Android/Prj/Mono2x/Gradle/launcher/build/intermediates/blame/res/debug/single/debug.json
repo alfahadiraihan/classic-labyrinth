@@ -1,22 +1,22 @@
 [
     {
-        "merged": "C:\\Programming\\UnityGameDevelopment\\ClassicLabyrinth\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_app_icon.png.flat",
-        "source": "C:\\Programming\\UnityGameDevelopment\\ClassicLabyrinth\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-mdpi\\app_icon.png"
+        "merged": "C:\\Programming\\UnityGameDevelopment\\ClassicLabyrinth\\classic-labyrinth\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_app_icon.png.flat",
+        "source": "C:\\Programming\\UnityGameDevelopment\\ClassicLabyrinth\\classic-labyrinth\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-mdpi\\app_icon.png"
     },
     {
-        "merged": "C:\\Programming\\UnityGameDevelopment\\ClassicLabyrinth\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_app_icon_round.xml.flat",
-        "source": "C:\\Programming\\UnityGameDevelopment\\ClassicLabyrinth\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-anydpi-v26\\app_icon_round.xml"
+        "merged": "C:\\Programming\\UnityGameDevelopment\\ClassicLabyrinth\\classic-labyrinth\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Programming\\UnityGameDevelopment\\ClassicLabyrinth\\classic-labyrinth\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Programming\\UnityGameDevelopment\\ClassicLabyrinth\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Programming\\UnityGameDevelopment\\ClassicLabyrinth\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Programming\\UnityGameDevelopment\\ClassicLabyrinth\\classic-labyrinth\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_app_icon.xml.flat",
+        "source": "C:\\Programming\\UnityGameDevelopment\\ClassicLabyrinth\\classic-labyrinth\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-anydpi-v26\\app_icon.xml"
     },
     {
-        "merged": "C:\\Programming\\UnityGameDevelopment\\ClassicLabyrinth\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Programming\\UnityGameDevelopment\\ClassicLabyrinth\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-mdpi\\ic_launcher_background.png"
+        "merged": "C:\\Programming\\UnityGameDevelopment\\ClassicLabyrinth\\classic-labyrinth\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_app_icon_round.xml.flat",
+        "source": "C:\\Programming\\UnityGameDevelopment\\ClassicLabyrinth\\classic-labyrinth\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-anydpi-v26\\app_icon_round.xml"
     },
     {
-        "merged": "C:\\Programming\\UnityGameDevelopment\\ClassicLabyrinth\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_app_icon.xml.flat",
-        "source": "C:\\Programming\\UnityGameDevelopment\\ClassicLabyrinth\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-anydpi-v26\\app_icon.xml"
+        "merged": "C:\\Programming\\UnityGameDevelopment\\ClassicLabyrinth\\classic-labyrinth\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Programming\\UnityGameDevelopment\\ClassicLabyrinth\\classic-labyrinth\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-mdpi\\ic_launcher_background.png"
     }
 ]

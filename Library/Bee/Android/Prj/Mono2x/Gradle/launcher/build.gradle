@@ -29,6 +29,15 @@ android {
         ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~"
     }
 
+    signingConfigs {
+        release {
+            storeFile file('D:/Raihan/keystorelabyrinth/keystorelabyrinth1.keystore')
+            storePassword 'cool8ur@RHA'
+            keyAlias 'raihantest'
+            keyPassword 'cool8ur@RHA'
+        }
+    }
+
     lintOptions {
         abortOnError false
     }
@@ -37,13 +46,13 @@ android {
         debug {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt')
-            signingConfig signingConfigs.debug
+            signingConfig signingConfigs.release
             jniDebuggable true
         }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt')
-            signingConfig signingConfigs.debug
+            signingConfig signingConfigs.release
         }
     }
 

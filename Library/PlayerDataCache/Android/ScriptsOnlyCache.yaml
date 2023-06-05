@@ -717,7 +717,7 @@ ScriptsOnlyBuild:
     className: StartGame
   - hash:
       serializedVersion: 2
-      Hash: 6582b4679d46cbdc682f67786b047c87
+      Hash: 661d04d0e54d5fb0c39d0b5bccd9d61b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: HoleCollider
@@ -1143,7 +1143,7 @@ ScriptsOnlyBuild:
     className: AudioPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: 5a1429d5051318d2b86702172df0a7da
+      Hash: f4a176eca132393ffe53c6fe20af0e9d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Timer
@@ -1331,4 +1331,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/GameplayLevel.unity
-  playerPath: C:/Programming/UnityGameDevelopment/ClassicLabyrinthGame/ClassicLabyrinthGameRaihan.apk
+  playerPath: C:/Programming/GameLabyrinthAttempt/GameLabyrinthAttempt1.apk
